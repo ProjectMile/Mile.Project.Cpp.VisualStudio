@@ -63,11 +63,7 @@ P.S. You need to copy the files mentioned in [Files](#Files) to
     <MileProjectManifestFile>Majo.manifest</MileProjectManifestFile>
   </PropertyGroup>
   <Import Project="..\Mile.Project\Mile.Project.Cpp.props" />
-  <ItemGroup>
-    <PackageReference Include="VC-LTL">
-      <Version>4.1.1-Beta7</Version>
-    </PackageReference>
-  </ItemGroup>
+  <Import Project="..\Mile.Project\Mile.Project.Cpp.VC-LTL.props" />
   <ItemGroup>
     <ClCompile Include="SimpleProject.cpp" />
   </ItemGroup>
