@@ -12,6 +12,7 @@ Mile.Project.Cpp.VisualStudio is also one of the Mile.Project family project.
 - Mile.Project
   - Mile.Project.Cpp.props
   - Mile.Project.Cpp.targets
+  - Mile.Project.Cpp.VC-LTL.props
   - Mile.Project.Manifest.rc
   - Mile.Project.Properties.Template.h
   - Mile.Project.Version.h
