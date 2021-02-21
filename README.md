@@ -61,7 +61,7 @@ P.S. You need to copy the files mentioned in [Files](#Files) to
     <ProjectGuid>{F3E82C07-D4FD-45AD-9C7C-29C7FC210158}</ProjectGuid>
     <RootNamespace>SimpleProject</RootNamespace>
     <MileProjectType>ConsoleApplication</MileProjectType>
-    <MileProjectManifestFile>Majo.manifest</MileProjectManifestFile>
+    <MileProjectManifestFile>SimpleProject.manifest</MileProjectManifestFile>
   </PropertyGroup>
   <Import Project="..\Mile.Project\Mile.Project.Cpp.props" />
   <Import Project="..\Mile.Project\Mile.Project.Cpp.VC-LTL.props" />
@@ -128,7 +128,7 @@ P.S. You need to copy the files mentioned in [Files](#Files) to
 </assembly>
 ```
 
-### `{YourProjectRoot}`\Mile.Project.Properties.h
+### `{YourProjectRoot}`\Mile.Project.Properties.h (Should be saved with UTF-16 LE)
 
 ```
 /*
